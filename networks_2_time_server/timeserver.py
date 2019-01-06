@@ -1,5 +1,5 @@
-from socket import *
-from time import *
+from socket import socket
+from time import asctime
 
 server_socket = socket()
 server_socket.bind(("0.0.0.0", 3777))
