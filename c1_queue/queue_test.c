@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include "queue.h"
 
-int main(int argc, char **argv) {
+int queue_test(int argc, char **argv) {
 	struct queue q = new_queue();
 	int a = 78;
 	int b = 122;
