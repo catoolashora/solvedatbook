@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include "list.h"
 
-int main(int argc, char **argv) {
+int list_test(int argc, char **argv) {
 	struct list l = new_list();
 	int a = 1;
 	int b = 2;
